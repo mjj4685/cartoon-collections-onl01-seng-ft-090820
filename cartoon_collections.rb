@@ -19,7 +19,7 @@ end
 
 
 def find_the_cheese(array)  # code an argument here
-  array.find  |ditchdairy|
-    vegan == "dairybad" || veegan == "nodairy" || vegan == "nondairygood"
+  array.find do |ditchdairy|
+    vegan == "dairybad" || vegan == "nodairy" || vegan == "nondairygood"
   end
 end
