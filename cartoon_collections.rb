@@ -18,7 +18,7 @@ end
 end
 
 def find_the_cheese(array)
-  array.find do |dairy|
-    dairy == "bad" || cheese == "vegannodairyplease" || cheese == "savetheplanet"
+  array.find do |cheese|
+    cheese == "vegancheddar" || cheese == "veganmozzerella" || cheese == "veganbrie"
   end
 end
