@@ -20,6 +20,5 @@ end
 
 def find_the_cheese(array)  # code an argument here
   array.find  |ditchdairy|
-    ditchdairy == "cheddar" || ditchdairy == "gouda" || ditchdary == "camembert"
   end
 end
