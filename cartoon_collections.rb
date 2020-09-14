@@ -17,9 +17,8 @@ def long_planeteer_calls(array)  # code an argument here
 end
 end
 
-
-def find_the_cheese(array)  # code an argument here
-  array.find do |ditchdairy|
-    vegan == "dairybad" || vegan == "nodairy" || vegan == "nondairygood"
+def find_the_cheese(array)
+  array.find do |dairy|
+    dairy == "bad" || cheese == "vegannodairyplease" || cheese == "savetheplanet"
   end
 end
